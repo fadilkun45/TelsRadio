@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Telsradio</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+        <!-- FONT AWESOME 6 -->
+        <script src="https://kit.fontawesome.com/bc6d3d8101.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div class="nav-brand">
+                    Telsradio
+                </div>
+                <div class="nav-items">
+                    <ul class="nav-links">
+                        <li><a href="#" class="nav-link">Telsradio</a></li>
+                        <li><a href="#" class="nav-link">Tentang</a></li>
+                        <li><a href="#" class="nav-link">Musik</a></li>
+                        <li><a href="#" class="nav-link active">Berita</a></li>
+                    </ul>
+                    <button class="button">Dengerin Yuk !</button>
+                </div>
+            </nav>
+            <div class="box">
+                <img src="{{thumbnail}}" alt="thumbnail" />
+                <a href="{{link}}">
+                    <!-- max 12 kalimat -->
+                    {{post}}
+                </a>
+                <p>
+                    <!-- max 20 kalimat -->
+                    {{deskripsi}}
+                </p>
+                <!-- tanggal -->
+                <i class="far fa-calendar-alt tanggal"> {{author}}</i>
+                <!-- author -->
+                <i class="far fa-user"> Winpoin</i>
+            </div>
+
+            <div class="box">
+                <img src="{{thumbnail_2}}" alt="thumbnail" />
+                <a href="{{link_2}}">
+                    <!-- max 12 kalimat -->
+                    {{post_2}}
+                </a>
+                <p>
+                    <!-- max 20 kalimat -->
+                    {{deskripsi_2}}
+                </p>
+                <!-- tanggal -->
+                <i class="far fa-calendar-alt tanggal"> {{author_2}}</i>
+                <!-- author -->
+                <i class="far fa-user"> Winpoin</i>
+            </div>
+
+            <div class="box">
+                <img src="{{thumbnail_3}}" alt="thumbnail" />
+                <a href="{{link_3}}">
+                    <!-- max 12 kalimat -->
+                    {{post_3}}
+                </a>
+                <p>
+                    <!-- max 20 kalimat -->
+                    {{deskripsi_3}}
+                </p>
+                <!-- tanggal -->
+                <i class="far fa-calendar-alt tanggal"> {{author_3}}</i>
+                <!-- author -->
+                <i class="far fa-user"> Winpoin</i>
+            </div>
+        </div>
+    </body>
+</html>
